@@ -36,5 +36,7 @@ for i in 0..10 {
 
     // Then we update the LR with the scheduler
     scheduler.step(&mut opt);
+
+    println!("{}", scheduler.get_lr());
 }
 ```

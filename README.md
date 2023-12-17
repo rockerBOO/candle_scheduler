@@ -10,7 +10,7 @@
 In `Cargo.toml`
 
 ```
-candle-scheduler = { git = 'https://github.com/rockerBOO/candle_scheduler.git", rev "a91c1c9692d8cc1da4f4e56900fae3a81eb4eb41" }
+candle-scheduler = { git = 'https://github.com/rockerBOO/candle_scheduler.git", rev = "a91c1c9692d8cc1da4f4e56900fae3a81eb4eb41" }
 ```
 
 ## Usage

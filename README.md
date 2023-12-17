@@ -5,6 +5,16 @@
 - OneCycle
 - CosineAnnealing
 
+## Install
+
+In `Cargo.toml`
+
+```
+candle-scheduler = { git = 'https://github.com/rockerBOO/candle_scheduler.git", rev "a91c1c9692d8cc1da4f4e56900fae3a81eb4eb41" }
+```
+
+## Usage
+
 ```rust
 let varmap = VarMap::new();
 
@@ -19,7 +29,7 @@ let mut opt = AdamW::new(varmap.all_vars(), params)?;
 let total_steps = 10;
 
 // The div factor for the minimum Learning Rate (LR)
-let div_factor = 25.; 
+let div_factor = 25.;
 
 // Set the Max LR
 let max_lr = 1e-2;

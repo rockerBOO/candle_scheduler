@@ -2,7 +2,8 @@
 
 [Candle](https://github.com/huggingface/candle) scheduler
 
-- OneCycleLR
+- OneCycle
+- CosineAnnealing
 
 ```rust
 let varmap = VarMap::new();
